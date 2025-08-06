@@ -8,6 +8,7 @@
     "bmad-method": "tools/bmad-npx-wrapper.js"
   },
   "scripts": {
+    "start": "node server.js", 
     "build": "node tools/cli.js build",
     "build:agents": "node tools/cli.js build --agents-only",
     "build:teams": "node tools/cli.js build --teams-only",
@@ -38,6 +39,9 @@
     "bmad-method": "^4.30.3",
     "chalk": "^4.1.2",
     "commander": "^14.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
     "fs-extra": "^11.3.0",
     "glob": "^11.0.3",
     "inquirer": "^8.2.6",
@@ -54,7 +58,7 @@
     "agents",
     "bmad"
   ],
-  "author": "Brian (BMad) Madison",
+  "author": "Brian (BMad)",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -77,5 +81,12 @@
     "**/*.md": [
       "prettier --write"
     ]
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "bugs": {
+    "url": "https://github.com/bmadcode/BMAD-METHOD/issues"
+  },
+  "homepage": "https://github.com/bmadcode/BMAD-METHOD#readme"
 }

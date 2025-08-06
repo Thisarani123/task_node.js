@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "f7e4bc4a-0fff-4b50-8fcd-dfa847d01489",
+		"name": "BMAD Chatbot Demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31725193"
+	},
+	"item": [
+		{
+			"name": "Start Chatbot Agent",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Ask Chatbot a Question",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Run Support Workflow",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
