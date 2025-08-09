@@ -1,0 +1,16 @@
+Knowledge Base for Chatbot Agent:
+
+SERVICES:
+We offer AI automation, CRM integration, HR onboarding, and SEO optimization.
+
+HOURS:
+Our support team is available Monday to Friday, 9 AM to 6 PM.
+
+PRICING:
+Pricing starts at $99/month. Contact sales for enterprise plans.
+
+CONTACT:
+Email us at support@company.com or call 077-6048930.
+
+ONBOARDING:
+New clients get a 1-hour onboarding session and API docs.

@@ -1,0 +1,31 @@
+{
+  "agent_name": "Chatbot_Support_Agent",
+  "version": "1.0",
+  "description": "Handles customer queries and support workflows",
+  "endpoints": [
+    {
+      "path": "/agent/start",
+      "method": "POST",
+      "description": "Starts the chatbot agent for a user",
+      "params": ["name"]
+    },
+    {
+      "path": "/agent/query",
+      "method": "POST",
+      "description": "Answer natural language questions",
+      "params": ["question"]
+    },
+    {
+      "path": "/agent/workflow/support",
+      "method": "POST",
+      "description": "Run full support workflow and create ticket",
+      "params": ["issue"]
+    }
+  ],
+  "linked_agents": [],
+  "knowledge_base": "knowledge_base.txt",
+  "deployment": {
+    "docker": true,
+    "port": 8080
+  }
+}
