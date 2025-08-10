@@ -1,0 +1,17 @@
+# .github/workflows/trigger-gitlab.yml
+name: Trigger GitLab CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main ] # Adjust if your main branch has a different name
+
+jobs:
+  trigger-gitlab-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Trigger GitLab Pipeline
+      run: |
+        curl -X POST \
+          -F token=${{ secrets.GITLAB_TRIGGER_TOKEN }} \
+          -F ref=main \
+          https://gitlab.com/api/v4/projects/${{ vars.GITLAB_PROJECT_ID }}/trigger/pipeline
